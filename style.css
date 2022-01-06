@@ -2,22 +2,22 @@ body{
      font-family: 'Poppins', sans-serif;
 }
 .flex{
-    height: 400px;
-    padding-bottom: 150px;
     display: flex;
-
+    margin: 10%;
 }
 h1{
     font-family: 'Emblema One', cursive;
     font-size: 50px;
      border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image: linear-gradient(180deg,red,tomato);
     border-image-slice: 1;
 }
 h2{
-    font-size: 40px;
-    
+    font-size: 60px;
     text-align: center;
+}
+h4{
+    font-size: 40px;
 }
 .anchor-button{
     text-decoration: none;
@@ -32,37 +32,38 @@ h2{
 }
 .width h2{
     text-align: left;
+    padding-right: 10px;
 }
 .width img{
     width: 50%;
-
+    margin-left: 30%;
 }
 .mission-item{
     border-radius: 30px;
     padding-right: 50px;
     height: 300px;
     width: 300px;
-    margin-right: 59px;
+    margin-right: 10%;  
 }
 .mission-item img{
-    height: 150px;
+   height: 150px;
 }
 #illustrator-1{
-    background-color: cyan;
+    background-color: lavender;
     padding-bottom: 50px;
     padding-left: 20px;
     margin-right: 30px;
     text-align: justify;
 }
 #illustrator-2{
-    background-color: orange;
+    background-color: oldlace;
     padding-bottom: 50px;
     padding-left: 20px;
     margin-right: 30px;
     text-align: justify;
 }
 #illustrator-3{
-    background-color: steelblue;
+    background-color: blanchedalmond;
     padding-bottom: 50px;
     padding-left: 20px;
     margin-right: 30px;
@@ -70,25 +71,24 @@ h2{
 }
 .code-area{
     background-image: url(dream-bg.png);
+    background-size: 10%;
     background-repeat: no-repeat;
     background-position: left;
 }
-
-
 .project-area{
-
-  background-image: url(shape-1.png);
+    background-image: url(shape-1.png);
+    background-size: 20%;
     background-repeat: no-repeat;
-    background-position: right;
 }
 span{
-    color: orange;
+    color: slateblue
 }
 footer h3{
     font-family: 'Rampart One', cursive;
 }
 footer{
     background-color: black;
+    padding-bottom: 2%;
      color: whitesmoke;
     text-align: center;
 }
